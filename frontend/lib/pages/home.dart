@@ -11,7 +11,6 @@ import 'package:dev_track_app/pages/tracker.dart';
 import 'package:dev_track_app/pages/studentview.dart';
 import 'package:dev_track_app/pages/submission_page.dart';
 
-
 class HomePag extends StatelessWidget {
   const HomePag({super.key});
 
@@ -32,16 +31,11 @@ class HomePag extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(30.0),
                 ),
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-                textStyle: const TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => HomePage()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage()));
               },
               child: Text("Home Page"),
             ),
@@ -54,16 +48,11 @@ class HomePag extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(30.0),
                 ),
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-                textStyle: const TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => DomainPage()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => DomainPage()));
               },
               child: Text("Domain Page"),
             ),
@@ -76,16 +65,11 @@ class HomePag extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(30.0),
                 ),
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-                textStyle: const TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => BottomNav()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => BottomNav()));
               },
               child: Text("Bottom Nav"),
             ),
@@ -98,60 +82,11 @@ class HomePag extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(30.0),
                 ),
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-                textStyle: const TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => SubmissionPage()));
-              },
-              child: Text("Submission Page"),
-            ),
-            ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 39, 94, 176),
-                foregroundColor: Colors.white,
-                shadowColor: Colors.blueAccent, // Shadow color
-                elevation: 5, // Elevation of the button
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(30.0), // Rounded corners
-                ),
-                padding: EdgeInsets.symmetric(
-                    horizontal: 20, vertical: 15), // Padding inside the button
-                textStyle: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => SubmissionPage()));
-              },
-              child: Text("Submission Page"),
-            ),
-            ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 39, 94, 176),
-                foregroundColor: Colors.white,
-                shadowColor: Colors.blueAccent, // Shadow color
-                elevation: 5, // Elevation of the button
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(30.0), // Rounded corners
-                ),
-                padding: EdgeInsets.symmetric(
-                    horizontal: 20, vertical: 15), // Padding inside the button
-                textStyle: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => SubmissionPage()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => SubmissionPage()));
               },
               child: Text("Submission Page"),
             ),
@@ -164,16 +99,11 @@ class HomePag extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(30.0),
                 ),
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-                textStyle: const TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => ConfirmPage()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => ConfirmPage()));
               },
               child: const Text("Confirm"),
             ),
@@ -186,26 +116,11 @@ class HomePag extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(30.0),
                 ),
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-                textStyle: const TextStyle(
-
-                padding: EdgeInsets.symmetric(
-                    horizontal: 20, vertical: 15), // Padding inside the button
-
-                textStyle: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               onPressed: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => PreviousProjects()));
-
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => SpecificProject()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => PreviousProjects()));
               },
               child: Text("Previous Projects"),
             ),
@@ -219,14 +134,10 @@ class HomePag extends StatelessWidget {
                   borderRadius: BorderRadius.circular(30.0),
                 ),
                 padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-                textStyle: const TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
+                textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               onPressed: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (context) => Splash()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => Splash()));
               },
               child: const Text("SplashScreen"),
             ),
@@ -239,18 +150,11 @@ class HomePag extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(30.0),
                 ),
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-                textStyle: const TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               onPressed: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => ProgressTrackerPage()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => ProgressTrackerPage()));
               },
               child: const Text("Tracker Page"),
             ),
@@ -263,18 +167,11 @@ class HomePag extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(30.0),
                 ),
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-                textStyle: const TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               onPressed: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => MgmtPreviousProjects()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => MgmtPreviousProjects()));
               },
               child: const Text("Management Project View Page"),
             ),
@@ -288,16 +185,12 @@ class HomePag extends StatelessWidget {
                   borderRadius: BorderRadius.circular(30.0),
                 ),
                 padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-                textStyle: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
+                textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Studentview()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => Studentview()));
               },
-              child: Text("Student View"),
+              child: const Text("Student View"),
             ),
           ],
         ),
