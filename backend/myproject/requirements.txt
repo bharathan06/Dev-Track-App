@@ -35,7 +35,6 @@ phonenumberslite==8.13.42
 platformdirs==4.2.2
 prompt-toolkit==3.0.43
 psutil==5.9.8
-psycopg2==2.9.9
 pure-eval==0.2.2
 pycparser==2.22
 pydantic==2.8.2
@@ -56,3 +55,4 @@ tzdata==2024.1
 wcwidth==0.2.13
 wheel==0.43.0
 whitenoise==6.7.0
+
