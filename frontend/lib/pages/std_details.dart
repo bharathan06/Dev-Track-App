@@ -6,7 +6,7 @@ class STD_details{
     STD("070","Vaishali","assets/images/elmoo.jpg","https://www.youtube.com/watch?v=dQw4w9WgXcQ","Lead"),
     STD("071","Areny","assets/images/elmoo.jpg","https://www.youtube.com/watch?v=dQw4w9WgXcQ","Front-End"),
     STD("072","Atul","assets/images/elmoo.jpg","https://www.youtube.com/watch?v=dQw4w9WgXcQ","Back-End"),
-    STD("073","Vai","assets/images/elmoo.jpg","https://www.youtube.com/watch?v=dQw4w9WgXcQ","UI/UX"),
+    STD("073","Vais","assets/images/elmoo.jpg","https://www.youtube.com/watch?v=dQw4w9WgXcQ","UI/UX"),
 
   ];
 }
